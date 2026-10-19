@@ -5,7 +5,7 @@ Simple script that will setup Proxmox LXC container start and stop for specified
 # Use
 Run on the host as root:
 ```sh
-bash -c "$(curl -fsSL https://github.com/SimplyProgrammer/Proxmox-LXC-start-stop-scheduler/blob/main/lxc-schedule.sh)"
+bash <(curl -fsSL https://raw.githubusercontent.com/SimplyProgrammer/Proxmox-LXC-start-stop-scheduler/main/lxc-schedule.sh)
 ```
 
 Or use flags like:
